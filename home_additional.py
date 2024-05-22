@@ -5,6 +5,9 @@ class Animal:
         self.name = name
         self.age = age
 
+    def eat(self):
+        print(f"{self.name} is eating.")
+
 class Bird(Animal):
     def make_sound(self):
         print(f"{self.name} says: Pkaw!")
